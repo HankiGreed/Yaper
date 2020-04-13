@@ -4,20 +4,16 @@ import "fmt"
 
 func main() {
 	prod := 1
-	gcd  :=20
-	for i := 19; i > 0; i-- {
-		prod *= i
-		gcd = 
+	for i := 2; i <= 20; i++ {
+		prod = (i * prod) / (findGCD(i, prod))
 	}
 	fmt.Println(prod)
-	fmt.Println(findGCD(20, 15))
 }
 
 func findGCD(x, y int) int {
-	for x%y != 0 {
-		a := y
-		y = x % y
-		x = a
+	if x == 0 {
+		return y
+	} else {
+		return findGCD(y%x, x)
 	}
-	return y
 }

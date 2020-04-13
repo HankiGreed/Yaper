@@ -9,6 +9,7 @@ func main() {
 		if checkPalindrome(v) {
 			if checkFactors(v) {
 				fmt.Println(v)
+
 				break
 			} else {
 				v--
@@ -18,7 +19,6 @@ func main() {
 		}
 	}
 
-	fmt.Println(checkPalindrome(13121))
 }
 
 func checkPalindrome(num int) bool {
@@ -41,13 +41,11 @@ func checkPalindrome(num int) bool {
 }
 
 func checkFactors(num int) bool {
-	fmt.Println(num)
 	for i := 999; i > 99; i-- {
 		if (num/i) > 999 && i*i < num {
 			break
 		}
 		if num%i == 0 {
-			fmt.Printf("%v %v \n", i, num/i)
 			return true
 		}
 	}

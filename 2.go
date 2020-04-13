@@ -11,15 +11,12 @@ func main() {
 		d := a
 		a = b
 		b = d + b
-		fmt.Printf("%v %v \n", a, b)
 		if a%2 == 0 {
 			c += a
-			fmt.Println(a)
 		}
 	}
 	if b%2 == 0 {
 		c += b
-		fmt.Println(b)
 	}
 	fmt.Println(c)
 }
