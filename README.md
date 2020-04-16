@@ -1,6 +1,6 @@
 # Yaper - Yet Another Project Euler Repository 
 #### This time, In Golang
-
+[![Go Report Card](https://goreportcard.com/badge/HankiGreed/Yaper)](https://goreportcard.com/report/HankiGreed/Yaper)
 --- 
 
 #### Problems I've Skipped (Marked Undone)
