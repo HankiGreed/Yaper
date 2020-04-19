@@ -8,3 +8,5 @@
 - [ ] [18](https://projecteuler.net/problem=18)
 - [ ] [19](https://projecteuler.net/problem=19)
 - [ ] [21](https://projecteuler.net/problem=21)
+- [ ] [23](https://projecteuler.net/problem=23)
+- [ ] [24](https://projecteuler.net/problem=24)
