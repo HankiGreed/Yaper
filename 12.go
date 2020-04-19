@@ -7,10 +7,6 @@ import (
 
 func main() {
 	i := 1
-	//for j := 0; j < 10; j++ {
-	//fmt.Println(nthTriangleNo(j))
-	//fmt.Println(noOfFactors(j))
-	//}
 	for ; ; i++ {
 		if n := noOfFactors(nthTriangleNo(i)); n > 500 {
 			fmt.Println(nthTriangleNo(i), n)
