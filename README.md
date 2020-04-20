@@ -10,5 +10,5 @@
 - [ ] [19](https://projecteuler.net/problem=19)
 - [ ] [21](https://projecteuler.net/problem=21)
 - [ ] [23](https://projecteuler.net/problem=23)
-- [ ] [24](https://projecteuler.net/problem=24)
+- [x] [24](https://projecteuler.net/problem=24)
 - [ ] [27](https://projecteuler.net/problem=27)
