@@ -1,5 +1,6 @@
 # Yaper - Yet Another Project Euler Repository 
 #### This time, In Golang
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6affa5af23fc40b693421673c308152f)](https://app.codacy.com/manual/HankiGreed/Yaper?utm_source=github.com&utm_medium=referral&utm_content=HankiGreed/Yaper&utm_campaign=Badge_Grade_Dashboard)
 [![Go Report Card](https://goreportcard.com/badge/HankiGreed/Yaper)](https://goreportcard.com/report/HankiGreed/Yaper)
 --- 
 
